@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<audio autoplay loop><source src="aboutmusic.mp3" type="audio/mpeg"/></audio>
+ <link href="https://fonts.cdnfonts.com/css/linear-beam" rel="stylesheet">
+    <style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      *, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: .25s all .02s ease-in-out;
+}
+
+body, html {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 32px;
+  background-color: #040204;
+  height: 100%;
+}
+
+.button--hexagon {
+  position: relative;
+  margin: 1rem auto;
+  text-align: center;
+  font-family:'Linear Beam';
+  font-size: .5rem;
+  line-height: .5rem;
+  vertical-align: middle;
+  color: #FFFFFF;
+  display: inline-block;
+  border-width: 0;
+  border-style: solid;
+  border-color: #ffffff;
+  padding: .5rem;
+  cursor: pointer;
+  background: transparent;
+  width: calc(100% / 6);
+}
+
+.button--hexagon span {
+  z-index: 20;
+  position: relative;
+}
+
+.button--hexagon::before, .button--hexagon::after {
+  content: '';
+  position: absolute; 
+  border-color: inherit;
+  border-style: inherit;
+  height: 50%;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(18, 49, 67, 0.75);
+}
+
+.button--hexagon::before {
+  border-width: 2px 2px 0 2px;
+  top: 0;
+  transform-origin: center bottom;
+  transform: perspective(0.5rem) rotateX(3deg);
+}
+a { text-decoration: none;
+}
+.button--hexagon::after {
+  border-width: 0 2px 2px 2px;
+  bottom: 0;
+  transform-origin: center top;
+  transform: perspective(0.5rem) rotateX(-3deg);
+}
+
+.button--hexagon:hover {
+  color: #000000;
+  border-color: #ffffff;
+}
+
+.button--hexagon:hover::before,
+.button--hexagon:hover::after {
+  background: #c4b819;
+}
+
+article {
+  width: 100;
+  min-height: 40vh;
+  background: #040204;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family:'Linear Beam';
+  font-size: .5rem;
+
+
+}
+
+lainimage {
+position:fixed;
+bottom:40px;
+}
+
+div {
+
+  border-style: inset;
+  border-color: white;
+  overflow:hidden;
+  color: #FFFFFF;
+  width:90%;
+  background: #040204;
+  padding-bottom:20px;
+  place-self:center;
+}
+
+    </style>
+    <title>THE UNDERCON</title>
+</head>
+<body style="background-color:#040204">
+</br>
+    <a href=https://gungnirdev.github.io><img src="banner.jpg" alt="Banner" class="center">
+    </a>
+        <p></p>
+    <h1 style="color:rgb(255, 255, 255); text-align:center; font-family:'Linear Beam'; font-weight:300; font-size:70px">THE UNDERCON</h1>
+    <h2 style="color:rgb(255, 255, 255); text-align:center; font-family:'Linear Beam'; font-size:15px">Life outside of the wired is FUARKKKKKKK</h2>
+
+    <button class="button--hexagon"><span>BLOG ARCHIVE</span></button>
+    <button class="button--hexagon"><span>ABOUT ME</span></button>
+    <button class="button--hexagon"><span>PROJECTS</span></button>
+    <button class="button--hexagon"><span>MUSIC</span></button>
+    <button class="button--hexagon"><span>LINKS</span></button>
+    </br>
+    <h2 style="color:rgb(255, 255, 255); text-align:center; font-family:'Linear Beam'; font-size:20px">ABOUT ME  </h2>
+
+
+<article><div><b>About me :)</div></article></br>
+
+
+<img style="position:fixed; bottom:0px; right:100px;" src=lain2.gif></br>
+
+
+</body>
+</html>
